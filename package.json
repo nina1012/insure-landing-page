@@ -1,0 +1,17 @@
+{
+  "name": "insure-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "postcss.config.js",
+  "scripts": {
+    "build": "postcss input-css/input.css -o public/build/output.css",
+    "watch": "postcss input-css/input.css -o public/build/output.css -w"
+  },
+  "author": "nina1012",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^9.7.6",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.4.2"
+  }
+}
