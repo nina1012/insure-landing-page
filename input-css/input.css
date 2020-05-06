@@ -1,3 +1,146 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
+
+.centering {
+  @apply px-1;
+  @apply py-2;
+}
+
+.max-width-auto {
+  /* @apply max-w-screen; */
+  @apply max-w-5xl;
+  @apply mx-auto;
+}
+/* headings * */
+.heading-1,
+h3 {
+  @apply leading-none;
+  @apply font-serif;
+  @apply font-medium;
+}
+.heading-1-light,
+.heading-1-dark {
+  @apply text-h1-size;
+  @apply mb-4;
+}
+
+.heading-1-light {
+  @apply text-gray-100;
+}
+.heading-1-dark {
+  @apply text-very-dark-violet;
+}
+
+h3 {
+  @apply text-3xl;
+}
+/* row */
+.row {
+  @apply px-5;
+}
+
+.icon-in-row {
+  @apply mx-auto;
+  @apply mb-8;
+}
+
+@screen md {
+  .heading-1 {
+    @apply text-5xl;
+  }
+  .icon-in-row {
+    @apply mx-0;
+  }
+  #nav-right-side > li {
+    @apply text-base;
+    @apply py-1;
+    @apply px-4;
+  }
+  .row {
+    @apply px-0;
+  }
+  hr.line {
+    @apply block;
+    @apply w-32;
+    @apply -mt-24;
+    @apply mx-0;
+  }
+  .footer-line {
+    @apply max-w-5xl;
+    @apply mx-auto;
+  }
+  nav > ul > li:hover {
+    @apply text-very-dark-violet;
+  }
+}
+
+.paragraph {
+  @apply mt-5;
+  @apply leading-relaxed;
+}
+.paragraph-light {
+  @apply text-white;
+}
+.paragraph-dark {
+  @apply text-dark-grayish-violet;
+}
+
+.btn {
+  @apply px-6;
+  @apply py-3;
+  @apply uppercase;
+  @apply border-2;
+  @apply font-semibold;
+  @apply border-white;
+  @apply border-solid;
+  @apply tracking-wide;
+}
+
+.btn-transparent {
+  @apply bg-transparent;
+  @apply text-white;
+}
+
+.btn-transparent:hover {
+  @apply text-very-dark-violet;
+  @apply bg-white;
+  @apply border;
+  @apply border-solid;
+  @apply border-very-dark-violet;
+}
+
+.icon {
+  @apply text-dark-grayish-violet;
+  @apply text-2xl;
+}
+
+.icon:hover {
+  @apply text-very-dark-violet;
+  @apply cursor-pointer;
+}
+
+nav > ul > li:hover {
+  @apply text-grayish-blue;
+}
+
+li {
+  @apply p-4;
+  @apply uppercase;
+  @apply text-xl;
+  @apply font-bold;
+}
+
+.footer-li:hover {
+  @apply underline;
+  @apply cursor-pointer;
+}
+.li {
+  @apply text-sm;
+  @apply p-1;
+}
+.first-li {
+  @apply text-dark-grayish-violet;
+  @apply py-8;
+}
+
 @import 'tailwindcss/utilities';

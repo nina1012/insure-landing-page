@@ -10,6 +10,7 @@
   "author": "nina1012",
   "license": "ISC",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
     "autoprefixer": "^9.7.6",
     "postcss-cli": "^7.1.1",
     "tailwindcss": "^1.4.2"
