@@ -69,9 +69,6 @@ h3 {
     @apply max-w-5xl;
     @apply mx-auto;
   }
-  nav > ul > li:hover {
-    @apply text-very-dark-violet;
-  }
 }
 
 .paragraph {
@@ -120,7 +117,7 @@ h3 {
 }
 
 nav > ul > li:hover {
-  @apply text-grayish-blue;
+  @apply text-very-dark-violet;
 }
 
 li {
